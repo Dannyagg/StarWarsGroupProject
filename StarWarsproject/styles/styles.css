@@ -1,0 +1,121 @@
+* { 
+   color:white;
+   margin-right: 5%;
+   margin-left: 5%;
+   box-sizing:border-box;
+   display:block;
+   background-image: url(../Image/SW.png);
+   background-repeat: repeat-x;
+   background-position: contain;
+
+
+}
+
+title {
+display:none;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+h1{
+font-family: Star Jedi Hollow Regular;
+}
+
+.logo {
+    display:inline-block;
+    max-width: 50%;
+   
+}
+    
+#triviaQuestions{
+    display: float;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom:5%;
+    border:none;
+    background-image: url(../Image/SW.png);
+    
+}
+
+#instructions {
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+button {
+  border: solid 20px, black;
+  border-radius: 12px;
+  padding: 15px 32px;
+  margin: 10px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 0 10px;
+  transform: translate(12px);
+}
+
+/* Dropdown Button */
+#question1 {
+ 
+  padding: 15px 32px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#question2 {
+  
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#question3 {
+  
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#question4 {
+  
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#question5 {
+  
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+
