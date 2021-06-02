@@ -1,15 +1,17 @@
-* { 
+html { 
    color:white;
    margin-right: 5%;
    margin-left: 5%;
    box-sizing:border-box;
    display:block;
    background-image: url(../Image/SW.png);
-   background-repeat: repeat-x;
-   background-position: contain;
-
+   background-position:cover;
+   background-repeat:repeat;
 
 }
+
+
+
 
 title {
 display:none;
@@ -18,7 +20,7 @@ display:none;
 header {
     margin: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 60px;
     
 }
 
@@ -28,7 +30,7 @@ font-family: Star Jedi Hollow Regular;
 
 .logo {
     display:inline-block;
-    max-width: 50%;
+    max-width: 80%;
    
 }
     
@@ -37,8 +39,7 @@ font-family: Star Jedi Hollow Regular;
     font-size: 20px;
     font-family:'Courier New', Courier, monospace;
     margin-bottom:5%;
-    border:none;
-    background-image: url(../Image/SW.png);
+   
     
 }
 
@@ -59,7 +60,20 @@ button {
   font-size: 16px;
   box-shadow: 0 0 10px;
   transform: translate(12px);
+  
 }
+
+
+#submitGuess:hover {
+    transition: 1.5s;
+
+}
+
+#button1 {
+    transition: 0.5s;
+
+}
+
 
 /* Dropdown Button */
 #question1 {
@@ -104,7 +118,7 @@ button {
 
 p {
     font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 
 }
